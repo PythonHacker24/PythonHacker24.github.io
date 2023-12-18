@@ -97,9 +97,6 @@
     }
   }, true)
 
-  /**
-   * Scrool with ofset on links with a class name .scrollto
-   */
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
       e.preventDefault()
@@ -115,9 +112,6 @@
     }
   }, true)
 
-  /**
-   * Scroll with ofset on page load with hash links in the url
-   */
   window.addEventListener('load', () => {
     if (window.location.hash) {
       if (select(window.location.hash)) {
@@ -126,9 +120,6 @@
     }
   });
 
-  /**
-   * Intro type effect
-   */
   const typed = select('.typed')
   if (typed) {
     let typed_strings = typed.getAttribute('data-typed-items')
@@ -142,16 +133,10 @@
     });
   }
 
-  /**
-   * Initiate portfolio lightbox 
-   */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
 
-  /**
-   * Testimonials slider
-   */
   new Swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
@@ -167,9 +152,6 @@
     }
   });
 
-  /**
-   * Portfolio details slider
-   */
   new Swiper('.portfolio-details-slider', {
     speed: 400,
     loop: true,
@@ -184,9 +166,6 @@
     }
   });
 
-  /**
-   * Preloader
-   */
   let preloader = select('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
@@ -194,9 +173,6 @@
     });
   }
 
-  /**
-   * Initiate Pure Counter 
-   */
   new PureCounter();
 
 })()
