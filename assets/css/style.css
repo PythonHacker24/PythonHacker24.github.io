@@ -117,7 +117,6 @@ a:hover {
   vertical-align: middle;
 }
 
-/*--/ Sections /--*/
 .sect-4 {
   padding: 4rem 0;
 }
@@ -130,14 +129,12 @@ a:hover {
   margin-top: 4rem;
 }
 
-/*--/ Title s /--*/
 .title-s {
   font-weight: 600;
   color: #fff;
   font-size: 1.1rem;
 }
 
-/*--/ Title A /--*/
 .title-box {
   margin-bottom: 4rem;
 }
@@ -162,7 +159,6 @@ a:hover {
   margin: 0 auto;
 }
 
-/*--/ Title Left /--*/
 .title-box-2 {
   margin-bottom: 3rem;
 }
@@ -181,7 +177,6 @@ a:hover {
   bottom: -12px;
 }
 
-/*------/ Box /------*/
 .box-pl2 {
   padding-left: 2rem;
 }
@@ -194,7 +189,6 @@ a:hover {
   z-index: 2;
   border-radius: 1rem;
   box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
-  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2); */
 }
 
 @media (min-width: 768px) {
@@ -203,7 +197,6 @@ a:hover {
   }
 }
 
-/*------/ Socials /------*/
 .socials {
   padding: 1.5rem 0;
 }
@@ -230,7 +223,6 @@ a:hover {
   transition: all 500ms ease;
 }
 
-/*------/ Ul resect /------*/
 .ul-resect,
 .widget-tags ul,
 .widget-sidebar .list-sidebar,
@@ -252,7 +244,6 @@ a:hover {
   margin-right: 10px;
 }
 
-/*------/ Ico Circle /------*/
 .ico-circle {
   height: 100px;
   width: 100px;
@@ -265,7 +256,6 @@ a:hover {
   display: block;
 }
 
-/*------/ Owl Carousel /------*/
 .owl-theme .owl-dots {
   text-align: center;
   margin-top: 18px;
@@ -295,7 +285,6 @@ a:hover {
   width: 25px;
 }
 
-/*--/ Scrolltop s /--*/
 .scrolltop-mf {
   position: relative;
   display: none;
@@ -320,9 +309,6 @@ a:hover {
   border-radius: 50%;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -353,7 +339,6 @@ a:hover {
   opacity: 1;
 }
 
-/*------/ Prelaoder /------*/
 #preloader {
   position: fixed;
   top: 0;
@@ -388,7 +373,6 @@ a:hover {
   }
 }
 
-/*------/ Button /------*/
 .button {
   display: inline-block;
   padding: 0.3rem 0.6rem;
@@ -437,9 +421,6 @@ a:hover {
   border-radius: 0.3rem;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
   z-index: 997;
@@ -467,12 +448,6 @@ a:hover {
   padding: 12px 0;
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
 .navbar {
   padding: 0;
 }
@@ -724,9 +699,6 @@ a:hover {
   display: block;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
 .hero {
   height: 100vh;
   position: relative;
@@ -814,9 +786,6 @@ a:hover {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -854,9 +823,6 @@ a:hover {
   background-color: #f22dff;
 }
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
 .service-box {
   background-color: #000;
   padding: 2.5rem 1.3rem;
@@ -902,9 +868,6 @@ a:hover {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# Counter
---------------------------------------------------------------*/
 .counter-box {
   color: #fff;
   text-align: center;
@@ -932,9 +895,6 @@ a:hover {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
 .work-box {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
@@ -988,9 +948,6 @@ a:hover {
   font-size: 1.2rem;
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
 }
@@ -1053,9 +1010,6 @@ a:hover {
   padding: 0;
 }
 
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
 .testimonial-box {
   color: #fff;
   text-align: center;
@@ -1124,9 +1078,6 @@ a:hover {
   background-color: #fff;
 }
 
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
 .footer-paralax {
   padding: 4rem 0 0 0;
 }
@@ -1223,9 +1174,6 @@ a:hover {
   }
 }
 
-/*--------------------------------------------------------------
-# Blog
---------------------------------------------------------------*/
 @media (min-width: 767px) {
   .card-blog {
     margin-bottom: 3rem;
@@ -1283,9 +1231,6 @@ a:hover {
   float: right;
 }
 
-/*--------------------------------------------------------------
-# Blog Single
---------------------------------------------------------------*/
 .post-box,
 .form-comments,
 .box-comments,
@@ -1343,7 +1288,6 @@ a:hover {
   font-style: italic;
 }
 
-/*------/ Comments /------*/
 .box-comments .list-comments li {
   padding-bottom: 40px;
 }
@@ -1387,7 +1331,6 @@ a:hover {
   margin-left: 40px;
 }
 
-/*------/ Sidebar /------*/
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
@@ -1438,9 +1381,6 @@ a:hover {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
 footer {
   text-align: center;
   color: #fff;
